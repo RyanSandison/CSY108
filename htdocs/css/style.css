@@ -1,6 +1,8 @@
 *{
   font-family: 'Shrikhand', cursive;
   font-size: 20px
+  margin:0;
+  padding: 0;
 }
 .titlefont{
     font-family: 'Shrikhand', cursive;
@@ -12,12 +14,12 @@
 }
 
 body{
-  background-color: #eff;
+  background-color: #BDBDBD;
   margin: 0;
 }
 /*Nav related content*/
 nav{
-  background-color: white;
+  background-color: #F44336;
   box-shadow: 1px 1px 4px #aaa;
 }
 nav ul{
@@ -28,7 +30,7 @@ nav ul{
 nav a{
   text-decoration: none;
   text-align: center;
-  color: grey;
+  color: #FFFFFF;
   display: block;
   padding: 10px
 }
@@ -70,9 +72,9 @@ nav ul.social li{
 
 .title{
   display: flex;
-  color: grey;
+  color: #ffffff;
   flex: 1 1 0;
-  justify-content:center;;
+  justify-content:center;
   margin: 0;
 }
 /*End of Nav*/
@@ -129,7 +131,7 @@ article p.description{
   }
   nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
   .social{
     margin: 0;
@@ -137,7 +139,7 @@ article p.description{
   #blocks{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-around;
   }
   #About-blocks{
     display: flex;
