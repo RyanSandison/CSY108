@@ -106,17 +106,18 @@ article.About h1{
 article h2{
   text-align: center;
   margin: 10px 0;
-  color: grey;
+  color: #212121;
+  font-weight: lighter;
 }
 article p{
   font-size: 16px;
-  color: grey;
+  color: #212121;
 }
 article img{
 width: 100%;
 height: auto;
 }
-article p.description{
+p{
   text-align: center;
   padding: 1px;
 }
