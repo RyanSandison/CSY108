@@ -24,7 +24,7 @@
 }
 
 body{
-  background-color: #ffffff;
+  background-color: lightgrey;
   margin: 0;
   font-family: 'Nova Script', cursive;
 }
@@ -46,21 +46,31 @@ nav a{
 nav a:hover{
   color: black;
 }
-article div{
+article{
+  margin-bottom: 20px;
   padding: 10px;
-  text-align: center;
-  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
 }
-article div p{
+article h2{
+  font-size: 27px;
+}
+.resume-design{
+  text-align: justify;
   padding: 10px;
-  text-align: center;
-  margin: 5px;
+}
+
+#blocks{
+  margin: 20px;
+}
+section img{
+  width: 100%;
+  padding-top: 20px
+
 }
 /*End of nav and start of page*/
 
-
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 900px) {
   ul{
     display: flex;
     justify-content: center;
@@ -73,5 +83,12 @@ article div p{
   nav{
     display: flex;
   }
-
+  #blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  article{
+    flex: 0 1 32%;
+  }
 }
