@@ -1,159 +1,77 @@
 *{
-  font-family: 'Shrikhand', cursive;
-  font-size: 20px
+  font-size: 20px;
   margin:0;
   padding: 0;
 }
+
 .titlefont{
-    font-family: 'Shrikhand', cursive;
+  font-family: 'Nova Script', cursive;
 }
 .wrapper{
   width:100%;
   max-width: 1280px;
   margin:0 auto;
+  background-color: #ffffff;
+  text-align: center;
+  font-family: 'Dekko', cursive;
+}
+.title{
+  color: #ffffff;
+  padding: 10px;
+  margin: 0;
+  display: block;
+  text-align: center;
 }
 
 body{
-  background-color: #BDBDBD;
+  background-color: #ffffff;
   margin: 0;
+  font-family: 'Nova Script', cursive;
 }
 /*Nav related content*/
 nav{
   background-color: #F44336;
-  box-shadow: 1px 1px 4px #aaa;
 }
 nav ul{
   list-style-type: none;
   padding: 0;
-  margin:0;
 }
 nav a{
   text-decoration: none;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   display: block;
   padding: 10px
 }
 nav a:hover{
-  background-color: #333;
-  border-radius: 10px 10px 0 0;
+  color: black;
 }
-nav ul li a.title:hover{
+article div{
+  padding: 10px;
+  text-align: center;
   background-color: white;
 }
-a.fb{
-  background: url(../img/fb.png) no-repeat center;
-  background-size:80%;
-  width: 20px
-}
-a.twitter{
-  background: url(../img/tw.png) no-repeat center;
-  background-size: 80%;
-  width: 20px
-}
-.social a{
-  text-indent: -10000px;
-}
-.social{
-  max-width: 80px;
-  margin: 0 auto;
-}
-
-nav ul.social{
-  flex: 1 1 0;
-  display: flex;
-}
-nav ul.social li{
-  flex: 1 1 0
-}
-.title{
-  color: grey;
-}
-
-.title{
-  display: flex;
-  color: #ffffff;
-  flex: 1 1 0;
-  justify-content:center;
-  margin: 0;
-}
-/*End of Nav*/
-/*Page related*/
-#blocks{
-  margin:20px
-}
-#About-blocks{
-  margin:20px;
-}
-article{
-  background-color: #fff;
-  margin-bottom: 20px;
+article div p{
   padding: 10px;
-  box-sizing: border-box;
-  box-shadow: 10px 10px 10px #aaa
-}
-article.About-item{
-  background-color: #fff;
-  margin-bottom: 20px;
-  padding: 10px;
-  box-sizing: border-box;
-}
-article.About h1{
   text-align: center;
-  margin: 10px 0;
-  color: grey;
+  margin: 5px;
 }
-article h2{
-  text-align: center;
-  margin: 10px 0;
-  color: #212121;
-  font-weight: lighter;
-}
-article p{
-  font-size: 16px;
-  color: #212121;
-}
-article img{
-width: 100%;
-height: auto;
-}
-p{
-  text-align: center;
-  padding: 1px;
-}
+/*End of nav and start of page*/
 
-/*flex styling only*/
-@media screen and (min-width:768px) {
-  nav ul{
+
+
+@media screen and (min-width: 768px) {
+  ul{
     display: flex;
-  }
-  nav li{
-    flex:1 0 1;
+    justify-content: center;
+}
+  ul li{
+    flex: 1 0 1;
+    padding: 0;
+    margin: 0;
   }
   nav{
     display: flex;
-    justify-content: flex-start;
-  }
-  .social{
-    margin: 0;
-  }
-  #blocks{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-  }
-  #About-blocks{
-    display: flex;
-    flex-wrap:wrap-reverse;
-    justify-content: space-between;
-  }
-  article{
-    flex: 1 1 31%;
-    margin: 1%
-  }
-  article.About-item{
-    flex: 1 1 48%;
-    margin: 1%
   }
 
 }
