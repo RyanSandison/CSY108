@@ -3,6 +3,7 @@
   margin:0;
   padding: 0;
 }
+<<<<<<< HEAD
 html{
   padding: 0;
   margin: 0;
@@ -20,6 +21,11 @@ html{
   display: block;
   text-align: center;
   font-family: 'Raleway', sans-serif;
+=======
+
+.titlefont{
+  font-family: 'Nova Script', cursive;
+>>>>>>> 137b09685a360f4fb011fa53fffb0e791c201f38
 }
 .wrapper{
   width:100%;
@@ -29,15 +35,30 @@ html{
   text-align: center;
   font-family: 'Dekko', cursive;
 }
+<<<<<<< HEAD
+=======
+.title{
+  color: #ffffff;
+  padding: 10px;
+  margin: 0;
+  display: block;
+  text-align: center;
+}
+
+>>>>>>> 137b09685a360f4fb011fa53fffb0e791c201f38
 body{
   background-color: lightgrey;
   margin: 0;
   font-family: 'Nova Script', cursive;
+<<<<<<< HEAD
   height: 100%;
+=======
+>>>>>>> 137b09685a360f4fb011fa53fffb0e791c201f38
 }
 /*Nav related content*/
 nav{
   background-color: #F44336;
+<<<<<<< HEAD
   margin-bottom: 10px;
   padding: 0;
 }
@@ -46,6 +67,13 @@ nav ul{
   padding: 0
 }
 
+=======
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+>>>>>>> 137b09685a360f4fb011fa53fffb0e791c201f38
 nav a{
   text-decoration: none;
   text-align: center;
@@ -55,11 +83,18 @@ nav a{
 }
 nav a:hover{
   color: black;
+<<<<<<< HEAD
   text-decoration: none;
 }
 article{
   margin-bottom: 20px;
   padding: 0px;
+=======
+}
+article{
+  margin-bottom: 20px;
+  padding: 10px;
+>>>>>>> 137b09685a360f4fb011fa53fffb0e791c201f38
   width: 100%;
   box-sizing: border-box;
 }
@@ -79,6 +114,7 @@ section img{
   padding-top: 20px
 
 }
+<<<<<<< HEAD
 
 .wrapper-image{
   width:100%;
@@ -133,6 +169,14 @@ footer ul li a{
   nav ul{
     display: flex;
     padding: 0;
+=======
+/*End of nav and start of page*/
+
+@media screen and (min-width: 900px) {
+  ul{
+    display: flex;
+    justify-content: center;
+>>>>>>> 137b09685a360f4fb011fa53fffb0e791c201f38
 }
   ul li{
     flex: 1 0 1;
@@ -141,15 +185,20 @@ footer ul li a{
   }
   nav{
     display: flex;
+<<<<<<< HEAD
     padding: 0;
     justify-content: space-around;
   }
 
+=======
+  }
+>>>>>>> 137b09685a360f4fb011fa53fffb0e791c201f38
   #blocks{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
+<<<<<<< HEAD
   .flex-contact{
     display: flex;
     flex-wrap: wrap;
@@ -164,4 +213,9 @@ footer ul li a{
   footer ul li{
     display: inline;
   }
+=======
+  article{
+    flex: 0 1 32%;
+  }
+>>>>>>> 137b09685a360f4fb011fa53fffb0e791c201f38
 }
