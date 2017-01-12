@@ -1,27 +1,69 @@
 <!DOCTYPE html>
 <html>
   <head>
-<link href="https://fonts.googleapis.com/css?family=Dekko|Nova+Script" rel="stylesheet">
-<link rel="stylesheet" href="../css/style.css" media="screen" title="no title">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Dekko|Raleway:200" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css" media="screen" title="no title">
     <meta charset="utf-8">
-    <title>Contact</title>
+    <title>Homepage</title>
   </head>
   <body>
     <nav>
       <ul>
         <li class="title">Diddy_Sandz</li>
       </ul>
-      <ul>
+      <ul class="titlefont">
         <li><a href="../index.html">Home</a></li>
-        <li><a href="About.html">About me</a></li>
-        <li><a href="Resume.html">Résumé</a></li>
-        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="../pages/About.html">About me</a></li>
+        <li><a href="../pages/Resume.html">Résumé</a></li>
+        <li><a href="">Contact</a></li>
       </ul>
     </nav>
     <section>
       <article class="wrapper">
-
+        <div>
+          <div>
+            <h1 class="contact-Title">Contact Details</h1>
+          </div>
+          <div class="flex-contact">
+            <div class="social">
+              <h2>Email</h2>
+              <p>The easiest way to contact me is via my <a href="mailto:ryan.robertsandison@gmail.com" target="_blank">email</a> if i don't get back to you within a few days, try contacting me on twitter. However I will always try to get back to you within 3 days.</p>
+            </div>
+            <div class="social">
+              <h2>Twitter</h2>
+              <p>You can Find me on twitter, a second resort if you fail to contact me via email. My twitter is <a href="https://twitter.com/Ryan_Sandison" target="_blank">@Ryan_Sandison.</a>I must say, i don't use my twitter all that offen, but i will make a habbit of checking it from now on.</p>
+            </div>
+            <div class="social">
+              <h2>Facebook</h2>
+              <p>Here is my public <a href="https://www.facebook.com/diddysandzcouk-1804560873130422/" target="_blank">Facebook page</a> Here you may be able to find information and updates about projects I am working on.</p>
+            </div>
+            <div class="social">
+              <h2>GitHub</h2>
+              <p>Here is my public <a href="https://github.com/RyanSandison" target="_blank">GitHub</a> account, on here you can find all of my public repositories, including my game demo, and a similar version of this site.</p>
+            </div>
+        </div>
+      </div>
+      </article>
+      <article class="wrapper">
+        <h2 class="feedback">Feedback</h2>
+        <div>
+          <p>If you have any feedback you would like to send me, either about this site,<br/>or any of the projects I am working on, then please fill out the form below. Thanks! <br/>Note: This form is currently not working, please send feedback straight to my email.</p>
+        </div>
+        <form action="mailto:ryan.robertsandison@gmail.com" method="post" enctype="text/plain">
+          Name:<br>
+          <input type="text" name="name"><br>
+          E-mail:<br>
+          <input type="text" name="mail"><br>
+          Comment:<br>
+          <input type="text" name="comment" size="50"><br><br>
+          <input type="submit" value="Send">
+          <input type="reset" value="Reset">
+        </form>
       </article>
     </section>
-  </body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="../js/bootstrap.min.js"></script>
+    </body>
 </html>

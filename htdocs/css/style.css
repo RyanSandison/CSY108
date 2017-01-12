@@ -3,9 +3,23 @@
   margin:0;
   padding: 0;
 }
+html{
+  padding: 0;
+  margin: 0;
+}
+
 
 .titlefont{
-  font-family: 'Nova Script', cursive;
+  font-family: 'Raleway', sans-serif;
+}
+
+.title{
+  color: #ffffff;
+  padding: 10px;
+  margin: 0;
+  display: block;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 .wrapper{
   width:100%;
@@ -15,27 +29,23 @@
   text-align: center;
   font-family: 'Dekko', cursive;
 }
-.title{
-  color: #ffffff;
-  padding: 10px;
-  margin: 0;
-  display: block;
-  text-align: center;
-}
-
 body{
   background-color: lightgrey;
   margin: 0;
   font-family: 'Nova Script', cursive;
+  height: 100%;
 }
 /*Nav related content*/
 nav{
   background-color: #F44336;
+  margin-bottom: 10px;
+  padding: 0;
 }
 nav ul{
   list-style-type: none;
-  padding: 0;
+  padding: 0
 }
+
 nav a{
   text-decoration: none;
   text-align: center;
@@ -45,10 +55,11 @@ nav a{
 }
 nav a:hover{
   color: black;
+  text-decoration: none;
 }
 article{
   margin-bottom: 20px;
-  padding: 10px;
+  padding: 0px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -68,12 +79,57 @@ section img{
   padding-top: 20px
 
 }
+
+.wrapper-image{
+  width:100%;
+  max-width: 1280px;
+  margin:0 auto;
+  background-color: lightgrey;
+  text-align: center;
+  font-family: 'Dekko', cursive;
+  padding: 0
+}
+.flex-contact{
+  margin: 20px;
+}
+.twitter{
+  flex: 1;
+  padding: 10px;
+  margin: 20px;
+}
+.social{
+  padding: 10px;
+  margin: 20px;
+}
+.feedback{
+  padding: 10px;
+  margin: 10px;
+}
+/*footer{
+  background-color: #F44336;
+  margin-top: 10px;
+  padding: 0;
+
+}
+footer ul{
+  list-style-type: none;
+  padding: 0
+}
+footer ul li a{
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;r
+
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+}*/
 /*End of nav and start of page*/
 
 @media screen and (min-width: 900px) {
-  ul{
+  nav ul{
     display: flex;
-    justify-content: center;
+    padding: 0;
 }
   ul li{
     flex: 1 0 1;
@@ -82,13 +138,27 @@ section img{
   }
   nav{
     display: flex;
+    padding: 0;
+    justify-content: space-around;
   }
+
   #blocks{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
+  .flex-contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .social{
+    flex: 1 0 46%;
+  }
   article{
     flex: 0 1 32%;
+  }
+  footer ul li{
+    display: inline;
   }
 }
