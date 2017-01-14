@@ -20,3 +20,9 @@ In this commit I only removed the JS from the site.
 
 12 January 2016
 The first 3 commits on this day were all to fix an error i had, this error came about from having two different versions of the site, on my desktop pc and one on my laptop. to fix this is deleted one of the sites and then re-uploaded it so that the final versions were the same.
+
+13 January 2016
+in this commit i uploaded some of my README and also removed the js from the re-uploaded old site. This means now i have my final site done and just need to upload this README.
+overall i have spent about 17 hours on this site and i think it has come together nice.
+
+while making this website i have used a number of tutorials found on both YouTube and w3. I have also had help from my tutors and classmates.
