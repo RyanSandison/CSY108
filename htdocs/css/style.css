@@ -70,6 +70,22 @@ article h2{
   text-align: justify;
   padding: 10px;
 }
+.resume-title{
+  text-align: justify;
+  padding: 10px;
+  font-size: 36px;
+}
+.contact-details{
+  padding-left: 15px;
+  padding-bottom: 35px;
+  margin: 15px
+}
+.objectives{
+  padding-left: 15px
+}
+.skills-list{
+  padding-left: 35px
+}
 
 #blocks{
   margin: 20px;
@@ -104,6 +120,9 @@ section img{
 .feedback{
   padding: 10px;
   margin: 10px;
+}
+.image-style{
+  padding-top: 0;
 }
 /*footer{
   background-color: #F44336;
@@ -157,6 +176,9 @@ footer ul li a{
   }
   article{
     flex: 0 1 32%;
+  }
+  article.about-me{
+    flex: 0 1 50%;
   }
   footer ul li{
     display: inline;
